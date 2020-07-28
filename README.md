@@ -1,23 +1,15 @@
 # _Animal Shelter_
 
-#### _A Travel Diary Ap_
+#### _Using Entity_
 
-#### By _**Ian Scott, Megan Hepner, Micheal Hansen**_
+#### By _**Megan Hepner & Taylor Somers**_
 
 ## Description
-
-_Long description._
+This is an app for an animal shelter that practices using Entity with C#.
+__
 
 ### Specifications
-| | Spec | Input | Output | isComplete |
-| :-------------     | :-------------     | :------------- | :------------- |:------------- |
-|1.|The program can instantiate a Place object of type Place | N/A | N/A | _True_|
-|2.|Place objects have a cityName parameter which can be retrieved | N/A  | N/A |_True_|
-|3.|The program can display a list of all Place objects |N/A | N/A |_True_|
-|4.|The program will assign a unique id to each Place object |N/A |N/A|_True_ |
-|5.|The program will be able to find a place object via a matching unique Id |N/A|N/A|_True_ |
-|6.|The program will be able to edit a Place objects values |update location: Tokyo |Location: Tokyo|_True_ |
-|7.|The program will be able to delete a Place object from the list of all place objects |Delete Entry|Entry Deleted |_True_ |
+
 
 ## Setup/Installation Requirements
 
@@ -34,7 +26,7 @@ _Long description._
 
 ## Known Bugs
 
-_There are no nown bugs_
+_This project is not complete_
 
 ## Support and contact details
 
@@ -49,4 +41,4 @@ _If you would like to contact the authors regarding this project, please contact
 
 _This software is licensed under the MIT license_
 
-Copyright (c) 2020 **Ian Scott, Megan Hepner, Michael Hansen**.
+Copyright (c) 2020 **Megan Hepner & Taylor Somers**.
