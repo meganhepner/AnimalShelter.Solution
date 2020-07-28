@@ -15,16 +15,9 @@ namespace AnimalShelter.Controllers
     {
       _db = db;
     }
-
-    // public ActionResult Index()
-    // {
-    //   List<Animal> model = _db.Animals.Include(animals => animals.Type).ToList();
-    //   return View(model);
-    // }
-
     public ActionResult Index()
     {
-      List<Animal> model = _db.Animals.ToList();
+      List<Animal> model = _db.Animals.OrderBy(Type);
       return View(model);
     }
 
@@ -40,6 +33,16 @@ namespace AnimalShelter.Controllers
       _db.SaveChanges();
       return RedirectToAction("Index");
     }
+
   }
 }
+
+
+
+    // public ActionResult Index()
+    // {
+    //   List<Animal> model = _db.Animals.OrderBy(Type).ToList();
+    //   return View(model);
+    // }
+
 
